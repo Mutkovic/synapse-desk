@@ -1,12 +1,12 @@
 # Local Chatbot with Ollama API
 
-This is an Electron application that integrates the Ollama API, providing you with a powerful chatbot that runs locally on your device. The app allows you to interact with a chatbot directly from your desktop without the need for an internet connection.
+This is an Electron application that integrates the local Ollama API, providing you with a powerful chatbot that runs locally on your device. The app allows you to interact with a chatbot directly from your desktop without the need for an internet connection.
 
 ## Features
 
-- Local chatbot powered by Ollama API.
+- Local chatbot powered by your Ollama API.
 - No internet connection required once the app is installed.
-- Fully configurable
+- Configurable temperature and model
 - Lightweight and easy to use.
 
 ## Prerequisites
@@ -19,19 +19,19 @@ This is an Electron application that integrates the Ollama API, providing you wi
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ollama-electron-chatbot.git
-cd ollama-electron-chatbot
+git clone https://github.com/Mutkovic/synapse-desk.git
 ```
 
 ### Step 2: Install dependencies
 
 ```bash
 npm install
+npm run postinstall
 ```
-### Step 3: Run the application
+### Step 3: Build the application
 
 ```bash
-npm start
+npm run build
 ```
 
 ### Usage
